@@ -1,6 +1,5 @@
 # 🧠 MNIST Feed-Forward Neural Network (From Scratch)
 
-> “I Built a Neural Network from Scratch”
 
 This project implements a **Feed-Forward Neural Network (FFNN)** using only **NumPy**, without TensorFlow, PyTorch, or any deep learning libraries.
 
