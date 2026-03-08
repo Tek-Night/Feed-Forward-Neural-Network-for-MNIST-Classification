@@ -55,29 +55,29 @@ Output Layer (10 neurons + Softmax)
 
 ### Forward Pass
 
-\[
-Z^{(1)} = XW^{(1)} + b^{(1)}
-\]
+$$
+Z^{(1)} = W^{(1)}X + b^{(1)}
+$$
 
-\[
-A^{(1)} = ReLU(Z^{(1)})
-\]
+$$
+A^{(1)} = \text{ReLU}(Z^{(1)})
+$$
 
-\[
-Z^{(2)} = A^{(1)}W^{(2)} + b^{(2)}
-\]
+$$
+Z^{(2)} = W^{(2)}A^{(1)} + b^{(2)}
+$$
 
-\[
-\hat{Y} = Softmax(Z^{(2)})
-\]
+$$
+\hat{Y} = \text{Softmax}(Z^{(2)})
+$$
 
 ---
 
 ### Loss Function (Categorical Cross-Entropy)
 
-\[
+$$
 L = -\sum y \log(\hat{y})
-\]
+$$
 
 ---
 
@@ -85,15 +85,15 @@ L = -\sum y \log(\hat{y})
 
 Using the Softmax + Cross-Entropy simplification:
 
-\[
+$$
 \frac{\partial L}{\partial Z^{(2)}} = \hat{Y} - Y
-\]
+$$
 
-Gradients are computed manually and weights are updated using:
+Weights update using gradient descent:
 
-\[
+$$
 W = W - \eta \nabla W
-\]
+$$
 
 ---
 
