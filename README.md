@@ -130,16 +130,21 @@ This project:
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-
-.
+```
+Neural-Network/
+│
 ├── data/
-├── model.py
-├── train.py
-├── utils.py
+│   ├── train.csv
+│   └── test.csv
+│
+├── model.py        # Neural network architecture
+├── train.py        # Training loop
+├── utils.py        # Helper functions
+├── model.ipynb     # Experiment notebook
 └── README.md
-
+```
 
 ---
 
