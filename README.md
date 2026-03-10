@@ -130,26 +130,10 @@ This project:
 
 ---
 
-## 📁 Project Structure
-
-```
-Neural-Network/
-│
-├── data/
-│   ├── train.csv
-│   └── test.csv
-│
-├── model.py        # Neural network architecture
-├── train.py        # Training loop
-├── utils.py        # Helper functions
-├── model.ipynb     # Experiment notebook
-└── README.md
-```
-
----
 
 ## 🛠 Requirements
 
+Data-> https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv
 
 numpy
 matplotlib
