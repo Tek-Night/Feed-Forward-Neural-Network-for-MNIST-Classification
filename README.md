@@ -1,4 +1,4 @@
-# 🧠 MNIST Feed-Forward Neural Network (From Scratch)
+#  MNIST Feed-Forward Neural Network (From Scratch)
 
 
 This project implements a **Feed-Forward Neural Network (FFNN)** using only **NumPy**, without TensorFlow, PyTorch, or any deep learning libraries.
@@ -7,7 +7,7 @@ The goal is to understand how neural networks work internally by manually implem
 
 ---
 
-## 📌 Objective
+##  Objective
 
 Build a simple neural network to classify handwritten digits from the **MNIST dataset**, while fully understanding the mathematics behind:
 
@@ -20,7 +20,7 @@ Build a simple neural network to classify handwritten digits from the **MNIST da
 
 ---
 
-## 🏗 Model Architecture
+##  Model Architecture
 
 
 Input Layer (784 neurons)
@@ -38,7 +38,7 @@ Output Layer (10 neurons + Softmax)
 
 ---
 
-## ⚙️ Features Implemented
+##  Features Implemented
 
 ✔ Forward pass computation  
 ✔ Manual backpropagation  
@@ -51,7 +51,7 @@ Output Layer (10 neurons + Softmax)
 
 ---
 
-## 🧮 Mathematical Concepts Used
+##  Mathematical Concepts Used
 
 ### Forward Pass
 
@@ -97,7 +97,7 @@ $$
 
 ---
 
-## 📊 Training
+##  Training
 
 The model is trained using **mini-batch gradient descent**.
 
@@ -109,7 +109,7 @@ Why mini-batch?
 
 ---
 
-## 📈 Example Results
+##  Example Results
 
 - Model successfully learns digit classification
 - Training loss decreases over epochs
@@ -117,19 +117,6 @@ Why mini-batch?
 - Correct and incorrect predictions are visualized
 
 ---
-
-## 🚀 Why This Project Matters
-
-Most neural network tutorials hide complexity behind frameworks.
-
-This project:
-- Builds everything from scratch
-- Strengthens mathematical intuition
-- Develops real understanding of backpropagation
-- Bridges linear algebra with machine learning
-
----
-
 
 ## 🛠 Requirements
 
